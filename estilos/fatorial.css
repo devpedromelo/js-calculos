@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgb(81, 23, 23), rgb(212, 48, 48));
+}
+
+header{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+
+main{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.285);
+    padding: 10px;
+}
+
+div#resultado{
+    padding: 10px;
+}
+
+input{
+    margin: 8px;
+}
+
+input[type=submit]{
+    background-color: red;
+    color: white;
+    margin-left: 175px;
+    margin-top: 25px;
+    padding: 0px 20px 0px 20px;
+    font-size: 1.1em;
+}
+
+img{
+    width: 300px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+div#underline{
+    position: absolute;
+    top: 45%;
+    left: 36.5%;
+    height: 1px;
+    width: 420px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h4{
+    color: rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    padding: 5px 0px 5px 0px;
+}
+
+div#paginas{
+    padding: 10px;
+}
+
+#paginas ul{
+    margin-left: 50px;
+}
+
+#paginas ul li{
+    padding: 3px 0px 3px 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 400px;
+    margin-left: 50px;
+}

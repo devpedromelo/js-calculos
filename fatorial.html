@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/fatorial.css">
+    <title>Fatorial</title>
+</head>
+<body>
+    <header>
+        <h1>Calculando o Fatorial de um Número!</h1>
+    </header>
+    <main>
+        <p>Escolha um número e em seguida o programa irá mostrar o seu fatorial. </p>
+        <div>
+            <p><label for="txti">Início:</label>
+                <input type="number" name="i" id="txtn" required>
+            </p>
+            <p>
+                <input type="submit" value="Contar" onclick="contar()">
+            </p>
+        </div>
+        <div id="resultado">
+            O resultado aparecerá aqui!
+        </div>
+        <hr>
+        <div id="paginas">
+            <h4>Caso queira acessar mais projetos de cáculos de Javascript:</h4>
+            <ul>
+                <li><a href="index.html">Cálculo de Idades</a></li>
+                <li><a href="passo.html">Cálculo em Passos</a></li>
+                <li><a href="tabuada.html">Tabuada</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="javascript/fatorial.js"></script>
+</body>
+</html>
